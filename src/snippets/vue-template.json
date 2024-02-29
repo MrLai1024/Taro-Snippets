@@ -1,0 +1,7 @@
+{
+  "class": {
+    "prefix": ":class",
+    "body": [":class=\"\\$style.\""],
+    "description": ""
+  }
+}

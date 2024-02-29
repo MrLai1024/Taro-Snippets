@@ -1,0 +1,97 @@
+{
+  "name": "taro-vscode",
+  "displayName": "Taro VsCode",
+  "description": "新建react和vue小程序页面目录、taro api代码片段等",
+  "version": "0.0.1",
+  "publisher": "Jason Lai",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "activationEvents": [
+    "onCommand:wxMini.newReactPage",
+    "onCommand:wxMini.newPage"
+  ],
+  "main": "./dist/extension.js",
+  "keywords": [
+    "Taro",
+    "Vue",
+    "React",
+    "微信小程序",
+    "Snippets",
+    "代码片段"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./src/snippets/taro-vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./src/snippets/taro-html.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/vue-script.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/vue-script.json"
+      },
+      {
+        "language": "html",
+        "path": "./src/snippets/vue-template.json"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "wxMini.newReactPage",
+          "group": "wechat"
+        },
+        {
+          "command": "wxMini.newPage",
+          "group": "wechat"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "wxMini.newReactPage",
+        "title": "新建React小程序页面"
+      },
+      {
+        "command": "wxMini.newPage",
+        "title": "新建Vue小程序页面"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}

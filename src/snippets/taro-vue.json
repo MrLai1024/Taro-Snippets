@@ -1,0 +1,21 @@
+{
+  "Taro Vue3 Single File Component": {
+    "prefix": "tvbase",
+    "body": [
+      "<template>",
+      "\t<view :class=\"\\$style.page\">",
+      "",
+      "\t</view>",
+      "</template>",
+      "",
+      "<script lang='ts' setup>",
+      "</script>",
+      "",
+      "<style lang=\"scss\" module>",
+      ".page {",
+      "}",
+      "</style>"
+    ],
+    "description": "Base for Taro Vue File Base"
+  }
+}

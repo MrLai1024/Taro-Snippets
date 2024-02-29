@@ -1,0 +1,197 @@
+{
+  "view": {
+    "prefix": "view",
+    "body": ["<view></view>"],
+    "description": ""
+  },
+  "text": {
+    "prefix": "text",
+    "body": ["<text></text>"],
+    "description": ""
+  },
+  "custom-wrapper": {
+    "prefix": "custom-wrapper",
+    "body": ["<custom-wrapper></custom-wrapper>"],
+    "description": ""
+  },
+  "slot": {
+    "prefix": "slot",
+    "body": ["<slot></slot>"],
+    "description": ""
+  },
+  "scroll-view": {
+    "prefix": "scroll-view",
+    "body": ["<scroll-view></scroll-view>"],
+    "description": ""
+  },
+  "image": {
+    "prefix": "image",
+    "body": ["<image></image>"],
+    "description": ""
+  },
+  "button": {
+    "prefix": "button",
+    "body": ["<button></button>"],
+    "description": ""
+  },
+  "checkbox": {
+    "prefix": "checkbox",
+    "body": ["<checkbox></checkbox>"],
+    "description": ""
+  },
+  "checkbox-group": {
+    "prefix": "checkbox-group",
+    "body": ["<checkbox-group></checkbox-group>"],
+    "description": ""
+  },
+  "editor": {
+    "prefix": "editor",
+    "body": ["<editor></editor>"],
+    "description": ""
+  },
+  "form": {
+    "prefix": "form",
+    "body": ["<form></form>"],
+    "description": ""
+  },
+  "input": {
+    "prefix": "input",
+    "body": ["<input></input>"],
+    "description": ""
+  },
+  "keyboard-accessory": {
+    "prefix": "keyboard-accessory",
+    "body": ["<keyboard-accessory></keyboard-accessory>"],
+    "description": ""
+  },
+  "label": {
+    "prefix": "label",
+    "body": ["<label></label>"],
+    "description": ""
+  },
+  "picker": {
+    "prefix": "picker",
+    "body": ["<picker></picker>"],
+    "description": ""
+  },
+  "picker-view": {
+    "prefix": "picker-view",
+    "body": ["<picker-view></picker-view>"],
+    "description": ""
+  },
+  "picker-view-column": {
+    "prefix": "picker-view-column",
+    "body": ["<picker-view-column></picker-view-column>"],
+    "description": ""
+  },
+  "radio": {
+    "prefix": "radio",
+    "body": ["<radio></radio>"],
+    "description": ""
+  },
+  "radio-group": {
+    "prefix": "radio-group",
+    "body": ["<radio-group></radio-group>"],
+    "description": ""
+  },
+  "slider": {
+    "prefix": "slider",
+    "body": ["<slider></slider>"],
+    "description": ""
+  },
+  "switch": {
+    "prefix": "switch",
+    "body": ["<switch></switch>"],
+    "description": ""
+  },
+  "textarea": {
+    "prefix": "textarea",
+    "body": ["<textarea></textarea>"],
+    "description": ""
+  },
+  "icon": {
+    "prefix": "icon",
+    "body": ["<icon></icon>"],
+    "description": ""
+  },
+  "progress": {
+    "prefix": "progress",
+    "body": ["<progress></progress>"],
+    "description": ""
+  },
+  "rich-text": {
+    "prefix": "rich-text",
+    "body": ["<rich-text></rich-text>"],
+    "description": ""
+  },
+  "cover-image": {
+    "prefix": "cover-image",
+    "body": ["<cover-image></cover-image>"],
+    "description": ""
+  },
+  "cover-view": {
+    "prefix": "cover-view",
+    "body": ["<cover-view></cover-view>"],
+    "description": ""
+  },
+  "match-media": {
+    "prefix": "match-media",
+    "body": ["<match-media></match-media>"],
+    "description": ""
+  },
+  "movable-area": {
+    "prefix": "movable-area",
+    "body": ["<movable-area></movable-area>"],
+    "description": ""
+  },
+  "movable-view": {
+    "prefix": "movable-view",
+    "body": ["<movable-view></movable-view>"],
+    "description": ""
+  },
+  "page-container": {
+    "prefix": "page-container",
+    "body": ["<page-container></page-container>"],
+    "description": ""
+  },
+  "root-portal": {
+    "prefix": "root-portal",
+    "body": ["<root-portal></root-portal>"],
+    "description": ""
+  },
+  "swiper": {
+    "prefix": "swiper",
+    "body": ["<swiper></swiper>"],
+    "description": ""
+  },
+  "swiper-item": {
+    "prefix": "swiper-item",
+    "body": ["<swiper-item></swiper-item>"],
+    "description": ""
+  },
+  "navigator": {
+    "prefix": "navigator",
+    "body": ["<navigator></navigator>"],
+    "description": ""
+  },
+  "functional-page-navigator": {
+    "prefix": "functional-page-navigator",
+    "body": ["<functional-page-navigator></functional-page-navigator>"],
+    "description": ""
+  },
+  "canvas": {
+    "prefix": "canvas",
+    "body": ["<canvas></canvas>"],
+    "description": ""
+  },
+  "map": {
+    "prefix": "map",
+    "body": ["<map></map>"],
+    "description": ""
+  },
+  "web-view": {
+    "prefix": "web-view",
+    "body": ["<web-view></web-view>"],
+    "description": ""
+  }
+}

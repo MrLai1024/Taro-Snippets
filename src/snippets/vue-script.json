@@ -1,0 +1,122 @@
+{
+  "hooks-template": {
+    "prefix": "use-hooks",
+    "body": [
+      "",
+      "",
+      "export const useHooks = (() => {",
+      "",
+      "",
+      "\treturn () => ({",
+      "",
+      "\t})",
+      "})();"
+    ],
+    "description": ""
+  },
+  "useDidShow": {
+    "prefix": ["useDidShow", "usedidshow"],
+    "body": ["useDidShow(()=>{", "", "})"],
+    "description": ""
+  },
+  "useDidHide": {
+    "prefix": ["useDidHide", "usedidhide"],
+    "body": ["useDidHide(()=>{", "", "})"],
+    "description": ""
+  },
+  "usePullDownRefresh": {
+    "prefix": ["usePullDownRefresh", "usepulldownRefresh"],
+    "body": ["usePullDownRefresh(()=>{", "", "})"],
+    "description": ""
+  },
+  "useReachBottom": {
+    "prefix": ["useReachBottom", "usereachBottom"],
+    "body": ["useReachBottom(()=>{", "", "})"],
+    "description": ""
+  },
+  "usePageScroll": {
+    "prefix": ["usePageScroll", "usepageScroll"],
+    "body": ["usePageScroll(()=>{", "", "})"],
+    "description": ""
+  },
+  "useResize": {
+    "prefix": ["useResize", "useresize"],
+    "body": ["useResize(()=>{", "", "})"],
+    "description": ""
+  },
+  "useShareAppMessage": {
+    "prefix": ["useShareAppMessage", "useshareAppMessage"],
+    "body": ["useShareAppMessage(()=>{", "", "})"],
+    "description": ""
+  },
+  "useTabItemTap": {
+    "prefix": ["useTabItemTap", "usetabItemTap"],
+    "body": ["useTabItemTap(()=>{", "", "})"],
+    "description": ""
+  },
+  "useAddToFavorites": {
+    "prefix": ["useAddToFavorites", "useaddToFavorites"],
+    "body": ["useAddToFavorites(()=>{", "", "})"],
+    "description": ""
+  },
+  "useShareTimeline": {
+    "prefix": ["useShareTimeline", "useshareTimeline"],
+    "body": ["useShareTimeline(()=>{", "", "})"],
+    "description": ""
+  },
+  "useSaveExitState": {
+    "prefix": ["useSaveExitState", "usesaveExitState"],
+    "body": ["useSaveExitState(()=>{", "", "})"],
+    "description": ""
+  },
+  "useLaunch": {
+    "prefix": ["useLaunch", "uselaunch"],
+    "body": ["useLaunch(()=>{", "", "})"],
+    "description": ""
+  },
+  "useError": {
+    "prefix": ["useError", "useerror"],
+    "body": ["useError(()=>{", "", "})"],
+    "description": ""
+  },
+  "useUnhandledRejection": {
+    "prefix": ["useUnhandledRejection", "useunhandledRejection"],
+    "body": ["useUnhandledRejection(()=>{", "", "})"],
+    "description": ""
+  },
+  "usePageNotFound": {
+    "prefix": ["usePageNotFound", "usepageNotFound"],
+    "body": ["usePageNotFound(()=>{", "", "})"],
+    "description": ""
+  },
+  "useLoad": {
+    "prefix": ["useLoad", "useload"],
+    "body": ["useLoad(()=>{", "", "})"],
+    "description": ""
+  },
+  "useUnload": {
+    "prefix": ["useUnload", "useunload"],
+    "body": ["useUnload(()=>{", "", "})"],
+    "description": ""
+  },
+  "useRouter": {
+    "prefix": ["useRouter", "userouter"],
+    "body": ["useRouter(()=>{", "", "})"],
+    "description": ""
+  },
+  "useTitleClick": {
+    "prefix": ["useTitleClick", "usetitleClick"],
+    "body": ["useTitleClick(()=>{", "", "})"],
+    "description": ""
+  },
+  "useOptionMenuClick": {
+    "prefix": ["useOptionMenuClick", "useoptionMenuClick"],
+    "body": ["useOptionMenuClick(()=>{", "", "})"],
+    "description": ""
+  },
+  "usePullIntercept": {
+    "prefix": ["usePullIntercept", "usepullintercept"],
+    "body": ["usePullIntercept(()=>{", "", "})"],
+    "description": ""
+  }
+}
